@@ -12,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $quant_acesso = 0;
     $status = 'A';
 
+    // Verifica se login/email já existe
     $sqlCheck = "SELECT * FROM USUARIO WHERE login=?";
     $stmtCheck = $conn->prepare($sqlCheck);
     $stmtCheck->bind_param("s", $login);
