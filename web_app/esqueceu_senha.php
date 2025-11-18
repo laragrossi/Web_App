@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esqueceu a Senha</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="login-container">
@@ -77,7 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <button type="submit">Redefinir Senha</button>
     </form>
 
-    <p>Lembrou a senha?</p>
+   
     <a href="index.php">
         <button type="button" class="btn-login">Voltar para Login</button>
     </a>
